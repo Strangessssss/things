@@ -1,0 +1,15 @@
+html{
+    background-image: url("football.webp");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 100vh;
+}
+
+
+#ball{
+    position: fixed;
+    width: 150px;
+    transition-duration: 0.7s;
+
+}

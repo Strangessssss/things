@@ -1,0 +1,73 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#tl-holder{
+    position: absolute;
+    left: 0;
+    top: 5rem;
+    width: 65rem;
+    height: 2rem;
+    background-color: #474747;
+}
+
+#tl-lower-holder{
+    position: absolute;
+    left: 46.5rem;
+    top: 7rem;
+    width: 2rem;
+    height: 2rem;
+    background-color: #474747;
+}
+
+#tl-frame{
+    position: absolute;
+    top: 8rem;
+    width: 15rem;
+    height: 35rem;
+    background-color: #474747;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 3rem;
+}
+
+.light{
+    width: 8rem;
+    height: 8rem;
+    background-color: white;
+    border-radius: 100rem;
+}
+
+.light:first-child{
+    background-color: #5a0000;
+}
+
+.light:nth-child(2){
+    background-color: #534f00;
+
+}
+
+.light:last-child{
+    background-color: #0b5100;
+}
+
+#next{
+    width: 10rem;
+    height: 5rem;
+    background-color: darkblue;
+    position: absolute;
+    right: 20rem;
+    top: 35rem;
+    cursor: pointer;
+    color: white;
+}
+
+#next:hover{
+    background-color: deepskyblue;
+}

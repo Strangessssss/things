@@ -1,0 +1,56 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #fbf2e9;
+    margin: 0;
+}
+
+#things-list{
+    display: flex;
+    font-family: Verdana, Geneva, Tahoma, Verdana, sans-serif;
+    list-style: none;
+    align-items: center;
+    justify-items: center;
+    padding: 0;
+    gap: 4rem;
+}
+
+li{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+a{
+    z-index: 1;
+}
+
+button{
+    color: white;
+    background-color: #9d354a;
+    border: none;
+    width: 10rem;
+    height: 10rem;
+}
+
+#start-football-behind{
+    position: fixed;
+    width: 5rem;
+}
+
+#start-traffic-light-behind{
+    position: fixed;
+    width: 10rem;
+}
+
+#start-books-behind{
+    position: fixed;
+    width: 5rem;
+}
+
+button:hover{
+    background-color: #521c27;
+}
+
